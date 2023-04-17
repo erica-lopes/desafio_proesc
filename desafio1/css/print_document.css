@@ -1,0 +1,63 @@
+.div_print {
+  width: 21cm;
+  min-height: 29.7cm;
+  margin: 1cm auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content {
+  width: 15cm;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+@media print {
+  html,
+  body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+    display:block;
+  }
+}
+
+.div_print h1 {
+  margin-bottom: 1.5rem;
+  font-size: 22px;
+  text-align: center;
+}
+
+#paragraph {
+  text-indent: 3rem;
+}
+
+.div_print p {
+  color: black;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.div_print .p2 {
+  text-align: end;
+  margin-top: 1rem;
+}
+
+.div_print .p3 {
+  margin-top: 5rem;
+  margin-left: 310px;
+  text-align: end;
+  justify-content: flex-end;
+}
+
+.div_print .p4 {
+  margin-top: 5rem;
+  padding: 1rem;
+  text-decoration: overline;
+  text-align: start;
+}

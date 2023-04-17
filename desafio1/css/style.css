@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+}
+
+body {
+  margin: 0;
+  background-image: linear-gradient(to bottom right, #e9faf0, #ffffff);
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  overflow: hidden;
+  padding: 5px 10px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 4px 6px -3px rgba(161, 158, 161, 0.48);
+  -moz-box-shadow: 0px 4px 6px -3px rgba(161, 158, 161, 0.48);
+  box-shadow: 0px 4px 6px -3px rgba(161, 158, 161, 0.48);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #004570;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+  color: #666767;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 45px;
+}
+
+section {
+  max-width: 600px;
+  margin-bottom: 85px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 4px 27px -7px rgba(161, 158, 161, 0.73);
+  -moz-box-shadow: 3px 4px 27px -7px rgba(161, 158, 161, 0.73);
+  box-shadow: 3px 4px 27px -7px rgba(161, 158, 161, 0.73);
+}
+
+small {
+  max-width: 535px;
+  padding: 1rem;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #004570;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+fieldset {
+  border-radius: 10px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 1rem;
+  list-style: none;
+}
+
+label {
+  padding: 1rem;
+  color: #666767;
+}
+
+#id_level {
+  font-size: 10px;
+  color: #004570;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  border: solid 1px #666767;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+input:focus {
+  padding-left: 1rem;
+}
+
+#tip {
+  margin-top: 1rem;
+  font-size: 9px;
+  text-align: center;
+  color: #75b330;
+}
+
+#tip a {
+  color: #75b330;
+  text-decoration: none;
+}
+
+#tip a:hover {
+  cursor: pointer;
+  color: #004570;
+}
+
+button {
+  margin-top: 35px;
+  border: none;
+  padding: 1.2rem;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, #75b330, #004570);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
